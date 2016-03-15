@@ -1,0 +1,38 @@
+nohup: ignoring input
+
+> commentLab@0.0.0 start /opt/bitnami/apache2/htdocs/PROJECTS/CS360/mongo360/commentLab
+> node ./bin/www
+
+Connected
+[0mGET / [36m304 [0m14.636 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.220 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m3.660 ms - -[0m
+In the GET route?
+[ { __v: 0,
+    Moms_Name: 'Pam',
+    Comment: 'I love me mom!',
+    Name: 'David',
+    _id: 56e78cad1ff7ed2f69ed65d9 },
+  { __v: 0,
+    Moms_Name: 'Pam',
+    Comment: 'You what\'s up',
+    Name: 'Bob',
+    _id: 56e78d60bce1956d6921f93c },
+  { __v: 0,
+    Moms_Name: 'Rufas!!!',
+    Comment: 'You what\'s up',
+    Name: 'Bob',
+    _id: 56e78d6fbce1956d6921f93d },
+  { __v: 0,
+    Moms_Name: 'H-lady',
+    Comment: 'is a letter',
+    Name: 'G',
+    _id: 56e78dbee11690b3690fb691 },
+  { __v: 0,
+    Moms_Name: 'Patricia',
+    Comment: 'I love this site!',
+    Name: 'Dr. Clement',
+    _id: 56e78ddfe11690b3690fb692 } ]
+[0mGET /comment [36m304 [0m39.826 ms - -[0m
+[0mGET /javascripting/script.js [33m404 [0m691.144 ms - 2234[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.720 ms - -[0m

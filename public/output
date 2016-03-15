@@ -1,0 +1,109 @@
+nohup: ignoring input
+
+> commentLab@0.0.0 start /opt/bitnami/apache2/htdocs/PROJECTS/CS360/mongo360/commentLab
+> node ./bin/www
+
+Connected
+[0mGET / [32m200 [0m14.299 ms - 820[0m
+[0mGET /javascripts/comments.js [36m304 [0m3.165 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.094 ms - -[0m
+POST comment route
+{ Name: 'G', Comment: 'is a letter', Moms_Name: 'H-lady' }
+{ _id: 56e78dbee11690b3690fb691,
+  Moms_Name: 'H-lady',
+  Comment: 'is a letter',
+  Name: 'G' }
+{ _id: 56e78dbee11690b3690fb691,
+  Moms_Name: 'H-lady',
+  Comment: 'is a letter',
+  Name: 'G',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m73.742 ms - 2[0m
+In the GET route?
+[ { __v: 0,
+    Moms_Name: 'Pam',
+    Comment: 'I love me mom!',
+    Name: 'David',
+    _id: 56e78cad1ff7ed2f69ed65d9 },
+  { __v: 0,
+    Moms_Name: 'Pam',
+    Comment: 'You what\'s up',
+    Name: 'Bob',
+    _id: 56e78d60bce1956d6921f93c },
+  { __v: 0,
+    Moms_Name: 'Rufas!!!',
+    Comment: 'You what\'s up',
+    Name: 'Bob',
+    _id: 56e78d6fbce1956d6921f93d },
+  { __v: 0,
+    Moms_Name: 'H-lady',
+    Comment: 'is a letter',
+    Name: 'G',
+    _id: 56e78dbee11690b3690fb691 } ]
+[0mGET /comment [32m200 [0m31.633 ms - 408[0m
+[0mGET / [36m304 [0m0.678 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.044 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.771 ms - -[0m
+In the GET route?
+[ { __v: 0,
+    Moms_Name: 'Pam',
+    Comment: 'I love me mom!',
+    Name: 'David',
+    _id: 56e78cad1ff7ed2f69ed65d9 },
+  { __v: 0,
+    Moms_Name: 'Pam',
+    Comment: 'You what\'s up',
+    Name: 'Bob',
+    _id: 56e78d60bce1956d6921f93c },
+  { __v: 0,
+    Moms_Name: 'Rufas!!!',
+    Comment: 'You what\'s up',
+    Name: 'Bob',
+    _id: 56e78d6fbce1956d6921f93d },
+  { __v: 0,
+    Moms_Name: 'H-lady',
+    Comment: 'is a letter',
+    Name: 'G',
+    _id: 56e78dbee11690b3690fb691 } ]
+[0mGET /comment [36m304 [0m18.769 ms - -[0m
+POST comment route
+{ Name: 'Dr. Clement',
+  Comment: 'I love this site!',
+  Moms_Name: 'Patricia' }
+{ _id: 56e78ddfe11690b3690fb692,
+  Moms_Name: 'Patricia',
+  Comment: 'I love this site!',
+  Name: 'Dr. Clement' }
+{ _id: 56e78ddfe11690b3690fb692,
+  Moms_Name: 'Patricia',
+  Comment: 'I love this site!',
+  Name: 'Dr. Clement',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m31.907 ms - 2[0m
+In the GET route?
+[ { __v: 0,
+    Moms_Name: 'Pam',
+    Comment: 'I love me mom!',
+    Name: 'David',
+    _id: 56e78cad1ff7ed2f69ed65d9 },
+  { __v: 0,
+    Moms_Name: 'Pam',
+    Comment: 'You what\'s up',
+    Name: 'Bob',
+    _id: 56e78d60bce1956d6921f93c },
+  { __v: 0,
+    Moms_Name: 'Rufas!!!',
+    Comment: 'You what\'s up',
+    Name: 'Bob',
+    _id: 56e78d6fbce1956d6921f93d },
+  { __v: 0,
+    Moms_Name: 'H-lady',
+    Comment: 'is a letter',
+    Name: 'G',
+    _id: 56e78dbee11690b3690fb691 },
+  { __v: 0,
+    Moms_Name: 'Patricia',
+    Comment: 'I love this site!',
+    Name: 'Dr. Clement',
+    _id: 56e78ddfe11690b3690fb692 } ]
+[0mGET /comment [32m200 [0m5.718 ms - 525[0m
